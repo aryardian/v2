@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/samp2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.head{
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav h2{
+    color: silver;
+}
+.decs{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.decs p{
+    color: cyan;
+    font-size: 20px;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.isibox{
+    height: 500px;
+    width: 300px;
+    margin-left:25px;
+    margin-bottom: 25px;
+    background: white;
+    transition: .3s;
+}
+.isibox:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.isibox img{
+    padding-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+.isibox h5{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+.isibox p{
+    font-size: 15px;
+    color: silver;
+}
+.isibox h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: gold;
+}
+.link{
+    text-align: center;
+}
+.link ul li{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.link ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link ul li a:hover{
+    color: red;
+    transform: scale(1.2);
+    transition: .3s;
+}
+.copy{
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 10px;
+}
